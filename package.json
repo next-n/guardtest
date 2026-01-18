@@ -5,9 +5,6 @@
   },
   "scripts": {
     "bench": "node bench/baseline.mjs && node bench/guard.mjs",
-    "demo:health": "node demo/health-gate.mjs",
-    "demo:microcache": "node demos/microcache.mjs",
-    "demo:singleflight": "node demos/singleflight.mjs",
-    "demo:stale": "node demos/stale-revalidate.mjs"
+    "demo:health": "node demo/health-gate.mjs"    
   }
 }
