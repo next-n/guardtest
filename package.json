@@ -1,6 +1,13 @@
 {
   "dependencies": {
-    "@nextn/outbound-guard": "file:../outbound-guard/nextn-outbound-guard-0.1.0.tgz",
+    "@nextn/outbound-guard": "file:../outbound-guard/nextn-outbound-guard-0.1.4.tgz",
     "express": "^5.2.1"
+  },
+  "scripts": {
+    "bench": "node bench/guard.mjs && node bench/baseline.mjs",
+    "demo:health": "node demo/health-gate.mjs",
+    "demo:microcache": "node demos/microcache.mjs",
+    "demo:singleflight": "node demos/singleflight.mjs",
+    "demo:stale": "node demos/stale-revalidate.mjs"
   }
 }
