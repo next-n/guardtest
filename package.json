@@ -4,7 +4,7 @@
     "express": "^5.2.1"
   },
   "scripts": {
-    "bench": "node bench/guard.mjs && node bench/baseline.mjs",
+    "bench": "node bench/baseline.mjs && node bench/guard.mjs",
     "demo:health": "node demo/health-gate.mjs",
     "demo:microcache": "node demos/microcache.mjs",
     "demo:singleflight": "node demos/singleflight.mjs",
