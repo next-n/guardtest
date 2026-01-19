@@ -6,6 +6,8 @@ npm run bench
 
 npm run demo:health
 
+npm run demo:instant
+
 
 ## Documentation
 
