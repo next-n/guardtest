@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@nextn/outbound-guard": "file:../outbound-guard/nextn-outbound-guard-0.1.4.tgz",
+    "@nextn/outbound-guard": "^0.2.0",
     "express": "^5.2.1"
   },
   "scripts": {
