@@ -12,3 +12,8 @@ npm run demo:health
 
 - [Health Gate](Documentations/HealthGate-README.md)
 - [Microcache](Documentations/Microcache-README.md)
+- [InstantGet](Documentations/InstantGet-README.md)
+
+
+
+

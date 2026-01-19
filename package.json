@@ -5,6 +5,7 @@
   },
   "scripts": {
     "bench": "node bench/baseline.mjs && node bench/guard.mjs",
-    "demo:health": "node demo/health-gate.mjs"    
+    "demo:health": "node demo/health-gate.mjs",
+    "demo:instant": "node demo/instant-get.mjs"
   }
 }
